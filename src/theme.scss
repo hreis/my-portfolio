@@ -1,0 +1,10 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$my-portfolio-primary: mat-palette($mat-yellow, 400);
+$my-portfolio-accent:  mat-palette($mat-pink, 500, 900, A100);
+$my-portfolio-warn:    mat-palette($mat-deep-orange);
+
+$my-portfolio-theme: mat-light-theme($my-portfolio-primary, $my-portfolio-accent, $my-portfolio-warn);
+
+@include angular-material-theme($my-portfolio-theme);
