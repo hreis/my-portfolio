@@ -27,6 +27,10 @@
   color: #141c3a;
 }
 
+.w-20 {
+  width: 20%;
+}
+
 .hero {
   -webkit-box-align: stretch;
     align-items: stretch;

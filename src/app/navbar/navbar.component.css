@@ -9,3 +9,25 @@
 .invisible-nav-bg {
   background-color: transparent;
 }
+
+.btn-outline-warning:hover {
+  color: #212529;
+  background-color: #ffee58;
+  border-color: #ffee58;
+}
+
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.btn-outline-warning {
+  color: #ffee58;
+  border-color: #ffee58;
+  border-width: 2px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 1.2rem;
+  font-family: "europa", sans-serif;
+  border-radius: 40px;
+}
