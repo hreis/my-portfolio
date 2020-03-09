@@ -1,5 +1,6 @@
 @import '~@angular/material/theming';
 @import "~bootstrap/dist/css/bootstrap.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
 @include mat-core();
 
 $my-portfolio-primary: mat-palette($mat-yellow, 400);
