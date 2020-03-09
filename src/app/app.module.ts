@@ -11,6 +11,7 @@ import { MatButtonModule } from "@angular/material/button";
 import { HeroComponent } from './hero/hero.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { SkillsComponent } from './skills/skills.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SkillsComponent } from './skills/skills.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
