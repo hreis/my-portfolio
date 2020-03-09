@@ -1,0 +1,122 @@
+.section.skills {
+    margin-top: -14rem;
+    padding-bottom: 1rem;
+}
+
+.section {
+    padding: 5rem 1.5rem;
+}
+
+.has-text-centered {
+    text-align: center !important;
+}
+
+.container.is-narrow {
+    max-width: 1200px;
+}
+
+.container {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+.section.skills .box {
+    padding: 0;
+}
+
+.box {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    color: #141c3a;
+    display: block;
+}
+
+.section.skills .box .content .columns {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.columns {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem;
+    display: flex;
+}
+
+.column {
+    display: block;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+.section.skills .box .content .columns .column {
+    padding: 50px 30px;
+    border-bottom: 1px solid #E6ECF8;
+    border-right: 0px solid #E6ECF8;
+}
+
+.section.skills .box .content .columns .column figure.image {
+    margin: 0 auto 2em;
+}
+
+.content figure {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+}
+
+.image {
+    display: block;
+    position: relative;
+}
+
+.content h1:not(:first-child) {
+    margin-top: 1em;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    font-family: "eurostile", sans-serif;
+    font-weight: 800;
+    color: #141c3a;
+}
+
+.content h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.title {
+    color: black;
+    font-weight: 800;
+    word-break: break-word;
+    line-height: 1.125;
+}
+
+.subtitle {
+    color: black;
+    font-family: "europa", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    word-break: break-word;
+}
+
+.section.skills .box .content .columns .column p.list-title {
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+
+.has-text-weight-normal {
+    font-weight: 400 !important;
+}
+
+.has-text-primary {
+    color: #ffee58 !important;
+}
