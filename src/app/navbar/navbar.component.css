@@ -12,8 +12,8 @@
 
 .btn-outline-warning:hover {
   color: #212529;
-  background-color: #ffee58;
-  border-color: #ffee58;
+  background-color: #BD93F9;
+  border-color: #BD93F9;
 }
 
 .btn:hover {
@@ -22,8 +22,8 @@
 }
 
 .btn-outline-warning {
-  color: #ffee58;
-  border-color: #ffee58;
+  color: #BD93F9;
+  border-color: #BD93F9;
   border-width: 2px;
   font-weight: bold;
   font-size: 18px;
@@ -31,3 +31,4 @@
   font-family: "europa", sans-serif;
   border-radius: 40px;
 }
+

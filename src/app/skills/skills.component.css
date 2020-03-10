@@ -4,9 +4,9 @@
 }
 
 .title {
-  font-family: "europa", sans-serif;
-  font-size: 24px;
-  color: black;
+  font-family: "eurostile", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.877);
   font-weight: 800;
   word-break: break-word;
   line-height: 1.125;
@@ -103,42 +103,36 @@
   text-align: center;
 }
 
-i {
-  display: block;
-  position: relative;
-}
-
-.section p {
-  margin-bottom: 2rem;
-}
-
-.content p {
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.has-text-weight-normal {
-  font-weight: 400 !important;
-}
-
-.has-text-primary {
-  color: #7510F7 !important;
-}
-
-.section.skills .box .content .columns .column ul {
-  list-style: none;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.content ul {
-  list-style: disc outside;
-  margin-left: 2em;
-  margin-top: 1em;
-}
-
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.subtitle {
+  font-family: monospace;
+  font-weight: 150;
+  line-height: 1.5;
+  color:rgba(0, 0, 0, 0.877);
+  font-size: large;
+}
+
+.divide-border {
+  border-left: 1px;
+  border-left-style: solid;
+  border-left-color: antiquewhite;
+  border-right: 1px;
+  border-right-style: solid;
+  border-right-color: antiquewhite;
+}
+
+.list-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #7510F7;
+}
+
+.icon {
+    color: #BD93F9;
+    font-size: 50px;
 }
