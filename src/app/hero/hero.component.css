@@ -1,13 +1,17 @@
 .title {
   color: #141c3a;
-  font-weight: 800;
+  font-weight: 600;
+  font-family: "eurostile", sans-serif;
   font-size: 3rem !important;
+  color:#BD93F9;
 }
 
 .subtitle {
-  font-family: "europa", sans-serif;
-  font-weight: 300;
+  font-family: monospace;
+  font-weight: 150;
   line-height: 1.5;
+  color:#6272A4;
+  font-size: large;
 }
 
 .w-20 {

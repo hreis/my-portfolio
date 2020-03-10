@@ -1,18 +1,15 @@
 .title {
-    font-family: "europa", sans-serif;
-    color: black;
-    font-weight: 800;
-    word-break: break-word;
-    line-height: 1.125;
+    font-family: "eurostile", sans-serif;
+    font-size: 2rem !important;
+    color: rgba(0, 0, 0, 0.877);
 }
 
 .subtitle {
-    color: black;
-    font-family: "europa", sans-serif;
-    font-weight: 300;
-    line-height: 1.5;
-    font-size: 1.25rem;
-    word-break: break-word;
+  font-family: monospace;
+  font-weight: 150;
+  line-height: 1.5;
+  color:rgba(0, 0, 0, 0.877);
+  font-size: large;
 }
 
 .column {
@@ -45,7 +42,7 @@
 }
 
 .section.is-primary {
-    background-color: #ffee58;
+    background-color: #BD93F9;
     color: #ffffff;
 }
 
