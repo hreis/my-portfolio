@@ -13,6 +13,8 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { SkillsComponent } from './skills/skills.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CompaniesComponent } from './companies/companies.component';
+import { MyProjectsComponent } from './my-projects/my-projects.component';
+import { StartupsComponent } from './startups/startups.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CompaniesComponent } from './companies/companies.component';
     HeroComponent,
     IntroductionComponent,
     SkillsComponent,
-    CompaniesComponent
+    CompaniesComponent,
+    MyProjectsComponent,
+    StartupsComponent
   ],
   imports: [
     BrowserModule,

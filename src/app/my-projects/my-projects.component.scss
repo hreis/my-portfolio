@@ -1,0 +1,121 @@
+@media screen and (min-width: 1216px)
+{
+  .section.is-long-ish {
+    padding-bottom: 14rem;
+  }
+
+  .container {
+    max-width: 1152px;
+  }
+}
+
+@media screen and (min-width: 769px), print
+{
+  .column.is-three-fifths, .column.is-three-fifths-tablet {
+    -webkit-box-flex: 0;
+    flex: none;
+    width: 60%;
+  }
+
+  .columns:not(.is-desktop) {
+    display: -webkit-box;
+    display: flex;
+  }
+
+  .section.is-long-ish {
+    padding-bottom: 13rem;
+  }
+}
+
+@media screen and (min-width: 1024px)
+{
+  .container {
+    max-width: 960px;
+  }
+
+  .is-size-5-desktop {
+    font-size: 1.25rem !important;
+  }
+
+  .section.is-medium {
+    padding: 9rem 1.5rem;
+  }
+}
+
+.section.is-long-ish {
+  padding-bottom: 12rem;
+}
+
+.section.is-primary {
+  background-color: #BD93F9;
+  color: #fff;
+}
+
+.section {
+  padding: 5rem 1.5rem;
+  display: block;
+}
+
+.has-text-centered {
+  text-align: center !important;
+}
+
+
+.container {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+div {
+  display: block;
+}
+
+.columns.is-centered {
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.columns:last-child {
+  margin-bottom: -0.75rem;
+}
+
+.columns {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+.subtitle {
+  font-family: monospace;
+  font-weight: 150;
+  line-height: 1.5;
+  color:rgba(0, 0, 0, 0.877);
+  font-size: large;
+}
+
+.title {
+  font-family: "eurostile", sans-serif;
+  font-size: 2rem !important;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.877);
+}
+
+.title, .subtitle {
+  word-break: break-word;
+}
+
+* {
+  box-sizing: inherit;
+}
