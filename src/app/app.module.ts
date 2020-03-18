@@ -15,6 +15,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CompaniesComponent } from './companies/companies.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { StartupsComponent } from './startups/startups.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { StartupsComponent } from './startups/startups.component';
     SkillsComponent,
     CompaniesComponent,
     MyProjectsComponent,
-    StartupsComponent
+    StartupsComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,
