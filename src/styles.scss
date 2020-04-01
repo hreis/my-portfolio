@@ -1,4 +1,5 @@
 $primary-color: #9eb2ea;
+$outra: #7289da;
 
 @media screen and (max-width: 1024px)
 {
@@ -171,24 +172,347 @@ img {
     margin-right: 18px;
 }
 
-.section-hypesquad-about {
+section {
+    font-weight: 400;
+    display: block;
+}
+
+#app-mount {
+    height: 100%;
+}
+
+.page-hypesquad, .page-hypesquad input, .page-hypesquad option {
+    font-weight: 400;
+}
+
+.page-hypesquad .hero-bg-wrapper {
     position: absolute;
     top: 0;
     left: 0;
-    background: #f9f9f9 url(../src/assets/images/909c987e9e8c30d8509752464753e7f6.svg) no-repeat 0 0/cover;
+    background: #f9f9f9 url(src\assets\images\909c987e9e8c30d8509752464753e7f6.svg) no-repeat 0 0/cover;
     width: 100%;
     height: 732px;
 }
 
-.image-logo {
-    background: url(../src/assets/images/8a6fb04a7de46f908adbb18c2b4b776b.svg),#fff url(../src/assets/images/008e2c37d3b89c444d451cd305fb3e14.svg) no-repeat bottom/contain;
+.section-hypesquad-about {
+    background: url(src\assets\images\8a6fb04a7de46f908adbb18c2b4b776b.svg),#fff url(src\assets\images\008e2c37d3b89c444d451cd305fb3e14.svg) no-repeat bottom/contain;
     padding: 100px 0;
 }
 
+.sectionHypesquadPerks-1nbGDZ {
+    margin: 0 auto;
+    max-width: 1600px;
+    padding-top: 90px;
+    position: relative;
+    bottom: -10px;
+}
 
-.image-continuos {
-    background-image: url('../src/assets/images/3.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 788px;
+.sectionHeadingWrapper-3b5hlP {
+    width: 100%;
+}
+
+.page-hypesquad .section-heading {
+    color: #dcddde;
+    margin: 0 auto 50px;
+    max-width: 55%;
+    text-align: center;
+}
+
+.page-hypesquad .section-heading {
+    color: #dcddde;
+    margin: 0 auto 50px;
+    max-width: 55%;
+    text-align: center;
+}
+
+.section-hypesquad-about .about-duties {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.section-hypesquad-about .about-duties .about-duty.become-hype {
+    background: #fff url(/assets/19654c3….svg) no-repeat 50% 45px;
+    background-size: 92px 102px;
+}
+
+.section-hypesquad-about .about-duties .about-duty:hover {
+    -webkit-box-shadow: 0 12px 30px 0 rgba(153,170,181,.1);
+    box-shadow: 0 12px 30px 0 rgba(153,170,181,.1);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.section-hypesquad-about .about-duties .about-duty {
+    background: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 9px 20px 0 rgba(153,170,181,.1);
+    box-shadow: 0 9px 20px 0 rgba(153,170,181,.1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-preferred-size: 345px;
+    flex-basis: 345px;
+    margin: 0 2% 50px;
+    max-width: 345px;
+    padding: 120px 20px 30px;
+    text-align: center;
+    -webkit-transition: -webkit-transform .2s cubic-bezier(.175,.885,.32,1.275);
+    transition: -webkit-transform .2s cubic-bezier(.175,.885,.32,1.275);
+    transition: transform .2s cubic-bezier(.175,.885,.32,1.275);
+    transition: transform .2s cubic-bezier(.175,.885,.32,1.275),-webkit-transform .2s cubic-bezier(.175,.885,.32,1.275);
+}
+
+.section-hypesquad-about .about-duties .about-duty.receive-goods {
+    background: #fff url(/assets/84d4951….png) no-repeat 50% 46px;
+    background-size: 98px 91px;
+}
+
+.section-hypesquad-about .about-duties .about-duty.spread-word {
+    background: #fff url(/assets/1fd30dc….svg) no-repeat 50% 52px;
+    background-size: 94px 86px;
+}
+
+.page-hypesquad .section-hypesquad-hero {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.section-hypesquad-hero .hypesquad-hero-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 660px;
+    position: relative;
+}
+
+.section-hypesquad-hero .hypesquad-hero-wrapper .hypesquad-hero {
+    margin: 0 53% 0 7%;
+    max-width: 575px;
+    width: 40%;
+}
+
+.section-hypesquad-hero .hypesquad-hero-wrapper .hypesquad-hero .hero-copy {
+    color: hsla(0,0%,95.3%,.8);
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.section-hypesquad-cta {
+    background: #f8f9fd url(src\assets\images\610918cd61367c50cb80bb1b56032cd4.svg) no-repeat 0 0/cover;
+    color: #4f545c;
+    padding: 100px 30px;
+    position: relative;
+    text-align: center;
+}
+
+.section-hypesquad-cta .cta-text {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 80px 0 30px;
+}
+
+.page-hypesquad .apply-button-wrapper {
+    display: inline-block;
+    margin-top: 30px;
+    min-width: 190px;
+}
+
+.button-38aScr:disabled, .disabled-9aF2ug {
+    opacity: .5;
+    cursor: not-allowed;
+    pointer-events: none;
+    outline: none;
+}
+
+.filledBrand-pyfKOu {
+    background: #7289da;
+}
+
+.filledBlack-2B5Fmj, .filledBrand-pyfKOu {
+    color: #fff;
+}
+
+.filledDefault-eAvIdC {
+    font-size: 14px;
+    padding: 0 20px;
+}
+.unpaired-31HHvP {
+    border-radius: 3px;
+}
+.grow-q77ONN {
+    width: 100%;
+}
+.buttonHeightTall-35JAaW {
+    height: 50px;
+}
+.button-38aScr {
+    position: relative;
+    display: inline-block;
+    background: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    -webkit-transition: all .17s ease-out;
+    transition: all .17s ease-out;
+}
+.buttonContent-IUG71x {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.disabledNotice-1z-GY5 {
+    color: #737f8d;
+    line-height: 1.4;
+    margin: 48px auto 0;
+    max-width: 600px;
+    text-align: center;
+}
+.disabledNotice-1z-GY5 a {
+    color: inherit;
+    text-decoration: underline;
+    -webkit-transition: color .125s;
+    transition: color .125s;
+}
+section p a {
+    color: #fff;
+}
+.section-hypesquad-cta .partner-link {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    border-top: 1px solid #dcddde;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.section-hypesquad-cta .partner-link a {
+    color: #7289da;
+}
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+}
+
+section p {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #737f8d;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+}
+
+main {
+    display: block;
+}
+
+p {
+    line-height: 1.5em;
+    margin-top: 36px;
+    font-size: 17px;
+    color: #737f8d;
+}
+
+body, p {
+    font-weight: 400;
+}
+
+section h2 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    margin: 52px 0 0;
+}
+
+section h1, section h2, section h3, section h4, section h5, section h6 {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #4f545c;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.page-hypesquad .section-heading p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.section-hypesquad-hero .hypesquad-hero-wrapper .hypesquad-hero h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+section h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+}
+
+section h1, section h2, section h3, section h4, section h5, section h6 {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #4f545c;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+:-webkit-any(article,aside,nav,section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
 }
