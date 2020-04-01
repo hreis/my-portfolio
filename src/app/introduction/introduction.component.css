@@ -41,11 +41,6 @@
     padding-bottom: 14rem;
 }
 
-.section.is-primary {
-    background-color: #BD93F9;
-    color: #ffffff;
-}
-
 .section {
     padding: 5rem 1.5rem;
     display: block;
