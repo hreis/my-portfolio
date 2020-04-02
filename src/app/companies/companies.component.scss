@@ -107,15 +107,6 @@ img {
   //z-index: 1000;
 }
 
-.container .card .face.face2 .content p {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: monospace;
-  color: #414141;
-  font-size: 10px;
-}
-
 .container .card .face.face2 .content h3 {
   margin: 0 0 10px 0;
   padding: 0;
@@ -157,6 +148,10 @@ div .card {
 
 .mt-150 {
   margin-top: -150px !important;
+}
+
+p {
+  font-size: 10px;
 }
 
 .zi-1000{
