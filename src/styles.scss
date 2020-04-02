@@ -40,7 +40,7 @@ html {
 }
 
 body, p {
-    font-weight: 400;
+    font-weight: 200;
 }
 
 body {
@@ -284,35 +284,9 @@ section {
     background-size: 94px 86px;
 }
 
-.page-hypesquad .section-hypesquad-hero {
+.page-hypesquad .section-itsme {
     margin: 0 auto;
     max-width: 1600px;
-}
-
-.section-hypesquad-hero .hypesquad-hero-wrapper {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    height: 660px;
-    position: relative;
-}
-
-.section-hypesquad-hero .hypesquad-hero-wrapper .hypesquad-hero {
-    margin: 0 53% 0 7%;
-    max-width: 575px;
-    width: 40%;
-}
-
-.section-hypesquad-hero .hypesquad-hero-wrapper .hypesquad-hero .hero-copy {
-    color: hsla(0,0%,95.3%,.8);
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 30px;
 }
 
 .section-hypesquad-cta {
@@ -428,14 +402,6 @@ button {
     background-color: transparent;
 }
 
-section p {
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    color: #737f8d;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 12px;
-}
 
 main {
     display: block;
@@ -479,12 +445,6 @@ h2 {
 .page-hypesquad .section-heading p {
     font-size: 18px;
     line-height: 30px;
-}
-
-.section-hypesquad-hero .hypesquad-hero-wrapper .hypesquad-hero h1 {
-    color: #fff;
-    font-size: 50px;
-    line-height: 60px;
 }
 
 section h1 {
