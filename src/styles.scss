@@ -199,25 +199,6 @@ section {
     padding: 100px 0;
 }
 
-.sectionHypesquadPerks-1nbGDZ {
-    margin: 0 auto;
-    max-width: 1600px;
-    padding-top: 90px;
-    position: relative;
-    bottom: -10px;
-}
-
-.sectionHeadingWrapper-3b5hlP {
-    width: 100%;
-}
-
-.page-hypesquad .section-heading {
-    color: #dcddde;
-    margin: 0 auto 50px;
-    max-width: 55%;
-    text-align: center;
-}
-
 .page-hypesquad .section-heading {
     color: #dcddde;
     margin: 0 auto 50px;
@@ -238,50 +219,6 @@ section {
     justify-content: center;
     margin: 0 auto;
     max-width: 1180px;
-}
-
-.section-hypesquad-about .about-duties .about-duty.become-hype {
-    background: #fff url(/assets/19654c3….svg) no-repeat 50% 45px;
-    background-size: 92px 102px;
-}
-
-.section-hypesquad-about .about-duties .about-duty:hover {
-    -webkit-box-shadow: 0 12px 30px 0 rgba(153,170,181,.1);
-    box-shadow: 0 12px 30px 0 rgba(153,170,181,.1);
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-}
-
-.section-hypesquad-about .about-duties .about-duty {
-    background: #fff;
-    border-radius: 3px;
-    -webkit-box-shadow: 0 9px 20px 0 rgba(153,170,181,.1);
-    box-shadow: 0 9px 20px 0 rgba(153,170,181,.1);
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    -ms-flex-preferred-size: 345px;
-    flex-basis: 345px;
-    margin: 0 2% 50px;
-    max-width: 345px;
-    padding: 120px 20px 30px;
-    text-align: center;
-    -webkit-transition: -webkit-transform .2s cubic-bezier(.175,.885,.32,1.275);
-    transition: -webkit-transform .2s cubic-bezier(.175,.885,.32,1.275);
-    transition: transform .2s cubic-bezier(.175,.885,.32,1.275);
-    transition: transform .2s cubic-bezier(.175,.885,.32,1.275),-webkit-transform .2s cubic-bezier(.175,.885,.32,1.275);
-}
-
-.section-hypesquad-about .about-duties .about-duty.receive-goods {
-    background: #fff url(/assets/84d4951….png) no-repeat 50% 46px;
-    background-size: 98px 91px;
-}
-
-.section-hypesquad-about .about-duties .about-duty.spread-word {
-    background: #fff url(/assets/1fd30dc….svg) no-repeat 50% 52px;
-    background-size: 94px 86px;
 }
 
 .page-hypesquad .section-itsme {
@@ -469,6 +406,22 @@ h1 {
     font-family: inherit;
     font-size: 100%;
     vertical-align: baseline;
+}
+
+section h1, section h2, section h3, section h4, section h5, section h6 {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #4f545c;
+}
+
+h3 {
+    padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-family: inherit;
+font-size: 100%;
+vertical-align: baseline;
 }
 
 :-webkit-any(article,aside,nav,section) h1 {

@@ -9,7 +9,6 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
 import { HeroComponent } from './hero/hero.component';
-import { IntroductionComponent } from './introduction/introduction.component';
 import { SkillsComponent } from './skills/skills.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CompaniesComponent } from './companies/companies.component';
@@ -22,7 +21,6 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     AppComponent,
     NavbarComponent,
     HeroComponent,
-    IntroductionComponent,
     SkillsComponent,
     CompaniesComponent,
     MyProjectsComponent,

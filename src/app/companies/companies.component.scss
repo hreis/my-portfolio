@@ -1,4 +1,5 @@
 .container {
+  padding-top: 5px;
   width: 1000px;
   position: relative;
   display: flex;
@@ -160,4 +161,17 @@ div .card {
 
 .zi-1000{
   z-index: 1000;
+}
+
+.sectionCompanies {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-top: 90px;
+  background-color: #f9f9f9;
+  // position: relative;
+  bottom: -10px;
+}
+
+.sectionHeadingWrapper {
+  width: 100%;
 }

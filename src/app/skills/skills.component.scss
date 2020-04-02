@@ -1,0 +1,107 @@
+.section-hypesquad-about .about-duties .about-duty.back-end {
+    background: #fff url(src/assets/images/back-dev.svg) no-repeat 50% 43px;
+    background-size: 70px 86px;
+}
+
+.section-hypesquad-about .about-duties .about-duty.front-end {
+    background: #fff url(src/assets/images/web-dev.svg) no-repeat 50% 43px;
+    background-size: 94px 86px;
+}
+
+.section-hypesquad-about .about-duties .about-duty.mobile-dev {
+    background: #fff url(src/assets/images/mob-dev.svg) no-repeat 50% 48px;
+    background-size: 58px 86px;
+}
+
+.about-duties .about-duty:hover {
+    -webkit-box-shadow: 0 12px 30px 0 rgba(153,170,181,.1);
+    box-shadow: 0 12px 30px 0 rgba(153,170,181,.1);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.section-hypesquad-about .about-duties .about-duty {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 9px 20px 0 rgba(153,170,181,.1);
+    box-sizing: border-box;
+    flex: 1;
+    flex-basis: 345px;
+    margin: 0 2% 50px;
+    max-width: 345px;
+    padding: 120px 20px 30px;
+    text-align: center;
+    transition: -webkit-transform .2s cubic-bezier(.175,.885,.32,1.275);
+    transition: transform .2s cubic-bezier(.175,.885,.32,1.275);
+}
+
+.section-hypesquad-about .about-duties .about-duty h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+section h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 48px 0 0;
+}
+
+img.csharp-icon {
+  height: 40px;
+}
+
+img.node-icon {
+  height: 40px;
+}
+  
+img.js-icon {
+    height: 32px;
+  }
+  
+img.angular-icon {
+    height: 60px;
+    padding: 0 3px;
+}
+  
+img.html-icon {
+    height: 40px;
+}
+  
+img.css3-icon {
+  padding: 0 32px;
+    height: 35px;
+}
+  
+img.react-icon {
+    height: 32px;
+}
+  
+img.flutter-icon {
+  height: 40px;
+}
+
+img.sass-icon {
+  height: 32px;
+}
+  
+  .circle-link {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin: 8px;
+    background-color: white;
+    border: none;
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+    transition: .1s ease-out;
+  }
+  
+  .circle-link:hover {
+    transform: translateY(-0.25rem);
+    /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2); */
+  }
+
