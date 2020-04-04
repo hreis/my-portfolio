@@ -120,6 +120,14 @@
               "devServerTarget": "my-portfolio:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/my-portfolio",
+            "netlifyToken": "9bd6f0b94aaaca86931081d7d5eca9c1bf9d47abcde529dbb3ce61c73044a1bc",
+            "siteId": "portfolio"
+          }
         }
       }
     }
