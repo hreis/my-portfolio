@@ -24,18 +24,6 @@ $cinza-texto: hsla(0, 0%, 95.3%, .8);
   position: relative;
 }
 
-.section-itsme .itsme-wrapper .itsme-hero h1 {
-  color: #fff;
-  font-size: 50px;
-  line-height: 60px;
-}
-
-.section-itsme .itsme-wrapper .itsme-hero {
-  margin: 0 53% 0 7%;
-  max-width: 575px;
-  width: 40%;
-}
-
 .section-itsme .itsme-wrapper .itsme-hero .itsme-copy {
   color: $cinza-texto;
   font-size: 20px;
@@ -95,15 +83,8 @@ a img {
 **/
 
 .header-nav-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
   margin-left: auto;
 }
 
@@ -275,6 +256,14 @@ li {
 .opener:hover, .opener-open {
   opacity: 1;
   
+}
+
+.header {
+  padding: 0 24px;
+  margin: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 

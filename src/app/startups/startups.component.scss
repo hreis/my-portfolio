@@ -1,80 +1,33 @@
 $roxinho: #7289da;
 
-@media screen and (min-width: 769px)
-{
-  .section.startups {
-    padding-bottom: 9rem;
-    margin-top: -14rem;
-  }
-
-  .callout .title {
-    font-size: 26px;
-  }
-
-  .section.startups .startup-grid {
-    margin-bottom: 6rem;
-  }
-
-  .columns:not(.is-desktop) {
-    display: -webkit-box;
-    display: flex;
-  }
-
-  .level {
-    display: -webkit-box;
-    display: flex;
-  }
-
-  .level > .level-item:not(.is-narrow) {
-    -webkit-box-flex: 1;
-    flex-grow: 1;
-  }
-  .column.is-half, .column.is-half-tablet {
-    -webkit-box-flex: 0;
-    flex: none;
-    width: 50%;
-  }
-
-  .section.startups .startup-grid .box {
-    padding: 60px 35px;
-  }
-
-  .section.startups .startup-grid .box p {
-    font-size: 18px;
-  }
-
-  .columns:not(.is-desktop) {
-    display: -webkit-box;
-    display: flex;
-  }
+a {
+  text-decoration: none;
+  color: $roxinho;
+  opacity: 1;
 }
 
-@media screen and (min-width: 1024px)
-{
-  .column.is-one-third-desktop {
-    -webkit-box-flex: 0;
-    flex: none;
-    width: 33.3333%;
-  }
-
-  .is-size-5-desktop {
-    font-size: 1.25rem !important;
-    }
-
-    .container {
-      max-width: 960px;
-      }
+.same-height-for-everyone {
+  height: 75px;
 }
 
-@media screen and (min-width: 1216px)
-{
-  .container {
-  max-width: 1152px;
-  }
+.fas.fa-paint-roller {
+  color: $roxinho;
+  padding: 0 6px;
+  opacity: 0.5;
+}
 
-  .section.startups .startup-grid .box {
-    padding: 60px 35px;
-  }
+.in-development {
+  text-decoration: none;
+  color: $roxinho;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.in-development:hover {
+  text-decoration: none;
+  color: $roxinho;
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
 .button-conversation {
