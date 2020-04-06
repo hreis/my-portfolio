@@ -1,17 +1,10 @@
-.container {
-  padding-top: 5px;
-  width: 1000px;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+.section-companies {
+  background-color: #f9f9f9;
+  margin: 0 auto;
+  padding-top: 90px;
 }
 
-.container .card {
-  position: relative;
-  border-radius: 10px;
-}
-
-.container .card .icon {
+.grid-container .card .icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -22,19 +15,31 @@
   z-index: 1;
 }
 
-.container .card:nth-child(1) .icon {
+.grid-container .grid-item.grid-item-1 .face.face1 {
   background: #e07768;
 }
 
-.container .card:nth-child(2) .icon {
+.grid-container .grid-item.grid-item-4 .face.face1 {
+  background: #e07768;
+}
+
+.grid-container .grid-item.grid-item-2 .face.face1 {
   background: #6eadd4;
 }
 
-.container .card:nth-child(3) .icon {
+.grid-container .grid-item.grid-item-5 .face.face1 {
+  background: #6eadd4;
+}
+
+.grid-container .grid-item.grid-item-3 .face.face1 {
   background: #4aada9;
 }
 
-.container .card .icon .fa {
+.grid-container .grid-item.grid-item-6 .face.face1 {
+  background: #4aada9;
+}
+
+.grid-container .icon .fa {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,13 +59,13 @@ img {
   color: #fff;
 }
 
-.container .card .face {
+.grid-container .face {
   width: 300px;
   height: 200px;
   transition: 0.5s;
 }
 
-.container .card .face.face1 {
+.grid-container .face.face1 {
   position: relative;
   background: #333;
   display: flex;
@@ -70,26 +75,43 @@ img {
   transform: translateY(100px);
 }
 
-.container .card:hover .face.face1{
-  background: #ff0057;
+.grid-container .grid-item.grid-item-1:hover .face.face1,
+.grid-container .grid-item.grid-item-4:hover .face.face1{
+  background: #e07768;
   transform: translateY(0px);
 }
 
-.container .card .face.face1 .content {
+.grid-container .grid-item.grid-item-2:hover .face.face1,
+.grid-container .grid-item.grid-item-5:hover .face.face1{
+  background: #6eadd4;
+  transform: translateY(0px);
+}
+
+.grid-container .grid-item.grid-item-3:hover .face.face1,
+.grid-container .grid-item.grid-item-6:hover .face.face1{
+  background: #4aada9;
+  transform: translateY(0px);
+}
+
+.grid-container .grid-item .face.face1 .content {
   opacity: 1;
   transition: 0.5s;
 }
 
-.container .card:hover .face.face1 .content {
+.grid-container .grid-item:hover .face.face1 .content {
   opacity: 1;
   //z-index: 1000;
 }
 
-.container .card .face.face1 .content img{
+.grid-container .grid-item .face.face1 .content img{
   max-width: 100px;
 }
 
-.container .card .face.face2 {
+// .grid-container .grid-item .face.face2 .content a{
+
+// }
+
+.grid-container .grid-item .face.face2 {
   position: relative;
   background: #fff;
   display: flex;
@@ -102,71 +124,16 @@ img {
 
 }
 
-.container .card:hover .face.face2{
+.grid-container .grid-item:hover .face.face2{
   transform: translateY(0);
   //z-index: 1000;
 }
 
-.container .card .face.face2 .content h3 {
-  margin: 0 0 10px 0;
-  padding: 0;
-  color: #fff;
-  font-size: 24px;
-  text-align: center;
-  font-family: "eurostile", sans-serif;
-  color: #414141;
-}
-
-.container a {
-  text-decoration: none;
-  color: #414141;
-}
-
-div .card {
+div .grid-item {
   background: transparent;
   border: none;
 }
 
-.title {
-  font-weight: 600;
-  font-family: "eurostile", sans-serif;
-  font-size: 3rem !important;
-  color:#BD93F9;
-}
-
-.subtitle {
-  font-family: monospace;
-  font-weight: 150;
-  line-height: 1.5;
-  color:#6272A4;
-  font-size: large;
-}
-
-.has-text-centered {
-  text-align: center !important;
-}
-
-.mt-150 {
-  margin-top: -150px !important;
-}
-
 p {
   font-size: 10px;
-}
-
-.zi-1000{
-  z-index: 1000;
-}
-
-.sectionCompanies {
-  margin: 0 auto;
-  max-width: 1600px;
-  padding-top: 90px;
-  background-color: #f9f9f9;
-  // position: relative;
-  bottom: -10px;
-}
-
-.sectionHeadingWrapper {
-  width: 100%;
 }

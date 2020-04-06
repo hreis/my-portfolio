@@ -1,32 +1,8 @@
-$primary-color: #9eb2ea;
-$outra: #7289da;
-
-@media screen and (max-width: 1024px)
-{
-    body, html {
-        min-width: 824px;
-    }
-}
-
-@media screen and (max-width: 848px)
-{
-    body, html {
-        min-width: 320px;
-    }
-}
-
-@media screen and (max-width: 767px)
-{
-    body, html {
-        min-width: 320px;
-    }
-}
-
 head {
     display: none;
 }
 
-html { 
+html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -39,13 +15,14 @@ html {
     vertical-align: baseline;
 }
 
-body, p {
+body,
+p {
     font-weight: 200;
 }
 
 body {
     text-rendering: optimizeLegibility;
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     line-height: 1.15;
     background: #fff;
     color: #9eb2ea;
@@ -57,10 +34,6 @@ body {
     padding: 0;
     border: 0;
     outline: 0;
-}
-
-.nav-primary {
-    background-color: $primary-color;
 }
 
 #app-mount {
@@ -76,7 +49,7 @@ div {
     font-style: inherit;
     font-family: inherit;
     font-size: 100%;
-    vertical-align: baseline;   
+    vertical-align: baseline;
 }
 
 nav {
@@ -87,7 +60,8 @@ svg:not(:root) {
     overflow: hidden;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
@@ -165,7 +139,7 @@ img {
 .appButton {
     color: #fff;
     top: 0;
-    border: 2px solid hsla(0,0%,100%,.8);
+    border: 2px solid hsla(0, 0%, 100%, .8);
     padding: 5px 17px 7px;
     border-radius: 20px;
     line-height: 24px;
@@ -181,7 +155,9 @@ section {
     height: 100%;
 }
 
-.page-hypesquad, .page-hypesquad input, .page-hypesquad option {
+.page-hypesquad,
+.page-hypesquad input,
+.page-hypesquad option {
     font-weight: 400;
 }
 
@@ -195,7 +171,7 @@ section {
 }
 
 .section-hypesquad-about {
-    background: url(src\assets\images\splash.svg),#fff url(src\assets\images\wave-gray.svg) no-repeat bottom/contain;
+    background: url(src\assets\images\splash.svg), #fff url(src\assets\images\wave-gray.svg) no-repeat bottom/contain;
     padding: 100px 0;
 }
 
@@ -246,7 +222,8 @@ section {
     min-width: 190px;
 }
 
-.button-38aScr:disabled, .disabled-9aF2ug {
+.button-38aScr:disabled,
+.disabled-9aF2ug {
     opacity: .5;
     cursor: not-allowed;
     pointer-events: none;
@@ -257,7 +234,8 @@ section {
     background: #7289da;
 }
 
-.filledBlack-2B5Fmj, .filledBrand-pyfKOu {
+.filledBlack-2B5Fmj,
+.filledBrand-pyfKOu {
     color: #fff;
 }
 
@@ -265,15 +243,19 @@ section {
     font-size: 14px;
     padding: 0 20px;
 }
+
 .unpaired-31HHvP {
     border-radius: 3px;
 }
+
 .grow-q77ONN {
     width: 100%;
 }
+
 .buttonHeightTall-35JAaW {
     height: 50px;
 }
+
 .button-38aScr {
     position: relative;
     display: inline-block;
@@ -281,7 +263,7 @@ section {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border: none;
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 500;
     cursor: pointer;
     -webkit-user-select: none;
@@ -292,6 +274,7 @@ section {
     -webkit-transition: all .17s ease-out;
     transition: all .17s ease-out;
 }
+
 .buttonContent-IUG71x {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -304,6 +287,7 @@ section {
     -ms-flex-pack: center;
     justify-content: center;
 }
+
 .disabledNotice-1z-GY5 {
     color: #737f8d;
     line-height: 1.4;
@@ -311,15 +295,18 @@ section {
     max-width: 600px;
     text-align: center;
 }
+
 .disabledNotice-1z-GY5 a {
     color: inherit;
     text-decoration: underline;
     -webkit-transition: color .125s;
     transition: color .125s;
 }
+
 section p a {
     color: #fff;
 }
+
 .section-hypesquad-cta .partner-link {
     position: absolute;
     bottom: 20px;
@@ -329,9 +316,11 @@ section p a {
     text-align: center;
     width: 100%;
 }
+
 .section-hypesquad-cta .partner-link a {
     color: #7289da;
 }
+
 button {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -351,7 +340,8 @@ p {
     color: #737f8d;
 }
 
-body, p {
+body,
+p {
     font-weight: 400;
 }
 
@@ -362,8 +352,13 @@ section h2 {
     margin: 52px 0 0;
 }
 
-section h1, section h2, section h3, section h4, section h5, section h6 {
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: #4f545c;
 }
 
@@ -384,6 +379,18 @@ h2 {
     line-height: 30px;
 }
 
+.section-itsme .itsme-wrapper .itsme-hero {
+    margin: 0 53% 0 7%;
+    max-width: 575px;
+    width: 40%;
+}
+
+.section-itsme .itsme-wrapper .itsme-hero h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+}
+
 section h1 {
     font-weight: 700;
     font-size: 36px;
@@ -391,8 +398,13 @@ section h1 {
     margin: 0;
 }
 
-section h1, section h2, section h3, section h4, section h5, section h6 {
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: #4f545c;
 }
 
@@ -408,24 +420,124 @@ h1 {
     vertical-align: baseline;
 }
 
-section h1, section h2, section h3, section h4, section h5, section h6 {
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: #4f545c;
 }
 
 h3 {
     padding: 0;
-border: 0;
-outline: 0;
-font-weight: inherit;
-font-style: inherit;
-font-family: inherit;
-font-size: 100%;
-vertical-align: baseline;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-:-webkit-any(article,aside,nav,section) h1 {
+:-webkit-any(article, aside, nav, section) h1 {
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
+}
+
+.section-companies .grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 0 40px;
+    justify-content: center;
+  }
+
+@media all and (max-width: 1024px) {
+
+    body,
+    html {
+        min-width: 824px;
+    }
+
+    .section-companies .grid-container {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-gap: 80px;
+        justify-content: center;
+      }
+}
+
+@media all and (max-width: 848px) {
+
+    body,
+    html {
+        min-width: 320px !important;
+    }
+
+    .section-itsme .itsme-wrapper .itsme-hero {
+        margin: 40px;
+        width: auto;
+    }
+}
+
+@media all and (max-width: 767px) {
+
+    body,
+    html {
+        min-width: 320px !important;
+    }
+
+    .section-companies .grid-container {
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: center;
+        grid-gap: 0px;
+      }
+  
+    .section-itsme .itsme-wrapper .itsme-hero h1 {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .section-hypesquad-about .section-heading {
+        //margin: 0;
+        padding: 0;
+        max-width: 75%;
+    }
+
+    .section-companies .section-heading-wrapper .section-heading {
+        padding: 0;
+        max-width: 75%;
+    }
+}
+
+@media all and (max-width: 375px) {
+
+    body, 
+    html {
+        min-width: 320px !important;
+    }
+
+    // #app-mount {
+    //     min-width: 320px;
+    // }
+
+    .section-itsme .itsme-wrapper .header-nav-left {
+        display: none;
+    }
+
+    .section-itsme .itsme-wrapper .header-nav-right {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    // .section-itsme .itsme-wrapper .header-nav-right .list-item-inactive.list-item .app-button {
+    //     position: 1;
+    // }
 }

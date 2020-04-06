@@ -126,7 +126,7 @@
           "options": {
             "outputPath": "dist/my-portfolio",
             "netlifyToken": "9bd6f0b94aaaca86931081d7d5eca9c1bf9d47abcde529dbb3ce61c73044a1bc",
-            "siteId": "portfolio"
+            "siteId": "0bceb2d1-9da5-4f7b-8e44-6db8ad2cc730"
           }
         }
       }
