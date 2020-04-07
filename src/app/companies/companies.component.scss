@@ -1,3 +1,5 @@
+$roxinho: #7289da;
+
 .section-companies {
   background-color: #f9f9f9;
   margin: 0 auto;
@@ -100,6 +102,7 @@ img {
 
 .grid-container .grid-item:hover .face.face1 .content {
   opacity: 1;
+  
   //z-index: 1000;
 }
 
@@ -124,6 +127,12 @@ img {
 
 }
 
+.grid-container .grid-item .face.face2 .content {
+  display: grid;
+
+
+}
+
 .grid-container .grid-item:hover .face.face2{
   transform: translateY(0);
   //z-index: 1000;
@@ -135,5 +144,19 @@ div .grid-item {
 }
 
 p {
-  font-size: 10px;
+  font-size: 12px;
 }
+
+.companies-title {
+  margin-bottom:6px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: $roxinho;
+}
+
+// .companies-title:hover {
+//   box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+//   transition: all 800ms;
+// }

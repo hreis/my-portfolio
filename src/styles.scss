@@ -391,6 +391,14 @@ h2 {
     line-height: 60px;
 }
 
+.header {
+    padding: 0 24px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
 section h1 {
     font-weight: 700;
     font-size: 36px;
@@ -516,28 +524,49 @@ h3 {
     }
 }
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 320px) {
 
     body, 
     html {
         min-width: 320px !important;
     }
 
-    // #app-mount {
-    //     min-width: 320px;
-    // }
-
-    .section-itsme .itsme-wrapper .header-nav-left {
-        display: none;
+    .header {
+        width: 100%;
+        padding: 0;
+        zoom: 0.8;
     }
 
-    .section-itsme .itsme-wrapper .header-nav-right {
+    .localePicker {
+        zoom: 0.8;
+        padding: 18px
+    }
+
+    .opener {
+        margin: 18px 24px;
+    }
+
+}
+
+@media all and (max-width: 400px) {
+
+    body, 
+    html {
+        min-width: 320px !important;
+    }
+
+    .header {
+        padding:0;
+        margin: 0;
         display: flex;
+        width: 100%;
         justify-content: space-between;
-        margin-left: 0;
     }
 
-    // .section-itsme .itsme-wrapper .header-nav-right .list-item-inactive.list-item .app-button {
-    //     position: 1;
-    // }
+    // .header .header-nav-right .list-item-inactive.list-item {
+        
+    //     background-color: red;
+    //     justify-items: center;
+    // }    
+
 }

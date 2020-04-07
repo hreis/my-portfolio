@@ -1,4 +1,10 @@
 $cinza-texto: hsla(0, 0%, 95.3%, .8);
+$orange: #e07768;
+
+.focus {
+  color: white;
+  font-weight: 500;
+}
 
 .col {
   background-color: transparent;
@@ -82,7 +88,7 @@ a img {
 ---------------------------
 **/
 
-.header-nav-right {
+.ul-items {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -122,7 +128,7 @@ a img {
   color: #fff;
   top: 0;
   font-size: 12px;
-  border: 2px solid hsla(0, 0%, 100%, .8);
+  border: 2px solid rgba(236, 113, 113, 0.8);
   padding: 5px 17px 7px;
   border-radius: 20px;
   line-height: 24px;
@@ -134,13 +140,15 @@ a {
 }
 
 
-.locale-picker {
-  position: relative;
-  padding: 13px 0;
-}
+// .locale-picker {
+//   position: relative;
+//   padding: 13px 0;
+// }
 
 .opener {
   opacity: .8;
+ 
+  margin: 18px 24px;
 }
 
 .flex-wrap {
@@ -170,12 +178,6 @@ a {
   flex-direction: row;
 }
 
-.flex,
-.flex .flexChild-FMspoG {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,7 +195,6 @@ a {
 .icon {
   margin-left: 5px;
 }
-
 
 .locale-list {
   position: absolute;
@@ -258,14 +259,17 @@ li {
   
 }
 
-.header {
-  padding: 0 24px;
-  margin: 0 24px;
-  display: flex;
-  justify-content: space-between;
+
+
+.language-size {
   width: 100%;
+  width: 50px;
 }
 
+.header-nav-right {
+  display: block;
+  justify-content: left;
+}
 
 .teste:hover .aloha {
   display: block;
