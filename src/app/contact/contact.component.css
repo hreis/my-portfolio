@@ -1,0 +1,188 @@
+.glad {
+    margin: 9% 53% 0 21%;
+    /* width: 100%; */
+}
+
+.background-mail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f9f9f9 url(src\assets\images\wave.svg) no-repeat 0 0/cover;
+    width: 100%;
+    height: 900px;
+}
+
+.submit-mail {
+    text-align: center;
+}
+
+.itsme-copy {
+    color: hsla(0, 0%, 95.3%, .8);
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.glad h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+p {
+    color: hsla(0, 0%, 95.3%, .8);
+    font-weight: 200;
+    text-align: center;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.columns.is-centered {
+    justify-content: center;
+}
+
+.columns:not(:last-child) {
+    margin-bottom: calc(1.5rem - 0.75rem);
+}
+
+.columns {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem;
+}
+
+.container form {
+    max-width: 640px;
+    margin: 32px auto 0;
+}
+
+.container {
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+.container form label.label {
+    font-weight: 200;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    color: hsla(0, 0%, 95.3%, .8);
+}
+
+.input,
+.textarea {
+    background: transparent;
+    border: 1px solid hsla(0, 0%, 95.3%, .8);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: hsla(0, 0%, 95.3%, .8);
+    box-shadow: inset 0 0.0625em 0.125em rgba(10, 10, 10, 0.05);
+    max-width: 100%;
+    width: 100%;
+    resize: none;
+    outline: none;
+}
+
+.input {
+    height: 50px;
+}
+
+.rounded-button {
+    width: 200px;
+    border: 2px solid hsla(0, 0%, 95.3%, .8);;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.8rem;
+    background-color: transparent;
+    color: hsla(0, 0%, 95.3%, .8);
+    border-radius: 32px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rounded-button:hover {
+    border-color: #fff;
+    color: #fff;
+    opacity: 0.9;
+}
+
+@media all and (min-width: 1216px) {
+
+    .container {
+        max-width: 1152px;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media all and (max-width: 771px)
+{
+    .background-mail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #f9f9f9 url(src\assets\images\wave.svg) no-repeat 0 0/cover;
+        width: 100%;
+        height: 1050px !important;
+    }
+}
+
+@media all and (max-width: 615px)
+{
+    .background-mail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #f9f9f9 url(src\assets\images\wave.svg) no-repeat 0 0/cover;
+        width: 100%;
+        height: 1185px !important;
+    }
+}
+
+@media all and (max-width: 440px)
+{
+    .background-mail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #f9f9f9 url(src\assets\images\wave.svg) no-repeat 0 0/cover;
+        width: 100%;
+        height: 1245px !important;
+    }
+}
+
+@media all and (min-width: 771px) {
+
+    .container form {
+        margin: 60px auto 0;
+    }
+
+    .columns:not(.is-desktop) {
+        display: -webkit-box;
+        display: flex;
+    }
+
+    .column.is-half,
+    .column.is-half-tablet {
+        -webkit-box-flex: 0;
+        flex: none;
+        width: 50%;
+    }
+}

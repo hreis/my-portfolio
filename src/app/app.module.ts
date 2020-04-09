@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from "@angular/material/toolbar";
@@ -13,6 +13,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CompaniesComponent } from './companies/companies.component';
 import { StartupsComponent } from './startups/startups.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { HomeComponent } from './home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     SkillsComponent,
     CompaniesComponent,
     StartupsComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    routingComponents,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

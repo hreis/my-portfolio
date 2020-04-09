@@ -1,24 +1,24 @@
-.section-hypesquad-about .about-duties .about-duty.back-end {
+.section-skills .about-skills .about-skill.back-end {
   background: #fff url(src/assets/images/back-dev.svg) no-repeat 50% 43px;
   background-size: 70px 86px;
 }
 
-.section-hypesquad-about .about-duties .about-duty.front-end {
+.section-skills .about-skills .about-skill.front-end {
   background: #fff url(src/assets/images/web-dev.svg) no-repeat 50% 43px;
   background-size: 94px 86px;
 }
 
-.section-hypesquad-about .about-duties .about-duty.mobile-dev {
+.section-skills .about-skills .about-skill.mobile-dev {
   background: #fff url(src/assets/images/mob-dev.svg) no-repeat 50% 48px;
   background-size: 58px 86px;
 }
 
-.about-duties .about-duty:hover {
+.about-skills .about-skill:hover {
   box-shadow: 0 12px 30px 0 rgba(153, 170, 181, .1);
   transform: translateY(-10px);
 }
 
-.section-hypesquad-about .about-duties .about-duty {
+.section-skills .about-skills .about-skill {
   background: #fff;
   border-radius: 3px;
   box-shadow: 0 9px 20px 0 rgba(153, 170, 181, .1);
@@ -33,16 +33,9 @@
   transition: transform .2s cubic-bezier(.175, .885, .32, 1.275);
 }
 
-.section-hypesquad-about .about-duties .about-duty h3 {
+.section-skills .about-skills .about-skill h3 {
   font-size: 18px;
   font-weight: 700;
-}
-
-section h3 {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 30px;
-  margin: 48px 0 0;
 }
 
 img.csharp-icon {
