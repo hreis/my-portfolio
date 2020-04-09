@@ -128,7 +128,7 @@ a img {
   color: #fff;
   top: 0;
   font-size: 12px;
-  border: 2px solid rgba(236, 113, 113, 0.8);
+  border: 2px solid $cinza-texto;
   padding: 5px 17px 7px;
   border-radius: 20px;
   line-height: 24px;
@@ -138,7 +138,6 @@ a img {
 a {
   text-decoration: none;
 }
-
 
 // .locale-picker {
 //   position: relative;
@@ -197,6 +196,7 @@ a {
 }
 
 .locale-list {
+  padding: 0;
   position: absolute;
   top: 46px;
   right: -14px;
@@ -247,19 +247,13 @@ li {
 
 .localeListOpen-3UmwZe {
   display: block;
-}
-
-
-.locale-list-closed {
-  display: none;
+ 
 }
 
 .opener:hover, .opener-open {
   opacity: 1;
   
 }
-
-
 
 .language-size {
   width: 100%;
@@ -270,15 +264,3 @@ li {
   display: block;
   justify-content: left;
 }
-
-.teste:hover .aloha {
-  display: block;
-}
-
-.aloha {
-  background:red;
-  height: 100px;
-  width: 100px;
-  display: none;
-}
-
