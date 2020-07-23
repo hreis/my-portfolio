@@ -2,8 +2,6 @@
 
 > This is a funny page about me.
 
-[![NPM Version][npm-image]][npm-url]
-
 Well, I enjoyed the little free time to improve some techniques about css and html to show a little bit about me and my work experience.
 
 ![](my-portfolio-gif.gif)
@@ -53,6 +51,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
