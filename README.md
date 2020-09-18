@@ -1,6 +1,6 @@
 # Portfolio 
 
-> This is a funny page about me.
+> This is a funny page about me..
 
 Well, I enjoyed the little free time to improve some techniques about css and html to show a little bit about me and my work experience.
 
